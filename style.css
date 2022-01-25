@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overFlow: hidden;
+}
+canvas{
+  border: 2px solid black;
+}
+.customButton{
+  width : 100px;
+  height : 70px;
+  background-image:linear-gradient(rgb(21, 193, 223), rgb(255, 0, 255));
+  border:2px solid black;
+  border-radius:50px; 
+  cursor: pointer;
+  font-size:18px ;
+  
+  
+}
+.input{
+  width : 200px;
+  height : 55px;
+  font-size: 25px;
+  background-image: linear-gradient(rgb(21, 193, 223), rgb(255, 0, 255));
+text-align: center;
+color:black;
+cursor: pointer;
+}
+.customTitle{
+font-size: 70px;
+text-align: center; 
+color : rgb(223, 27, 223);
+font-weight :2000;
+text-shadow: 2px 2px 5px rgb(228, 224, 10);
+
+}
+
+.customGreeting{
+
+  font-size: 40px;
+  color :rgb(255, 255, 255);
+  font-style: italic;
+}
+
+.customWait{
+
+  font-size: 40px;
+  color :rgb(255, 255, 255);
+  font-style: italic;
+
+}
+
+.customTBox{
+
+  color:rgb(251, 255, 0);
+  background-color: rgb(58, 58, 214);
+  
+
+}
+
+::placeholder { 
+  color: black;
+  opacity: 0.7; 
+}
